@@ -42,6 +42,9 @@ app.use((req, res, next) => {
   next();
 });
 
+// Passport
+require('./config/passport')(passport);
+
 // DB Config
 const DB = require('./config/keys').MongoURI;
 
@@ -55,8 +58,11 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Create Passport Local Strategy!
+// For Next Time: Get Fonts from Google Fonts, Shape Dividers & Start building the Home Page! 
 
+app.get('/', (req, res) => {
+  res.render('home');
+});
 
 const port = process.env.PORT;
 
