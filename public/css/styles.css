@@ -1,0 +1,37 @@
+*, *::before, *::after {  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* Border & Padding now included in width & Height */
+}
+
+html {
+  min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.home-page-sect_a-top-container--1 {
+  width: 100vw;
+  background-color: #000000;
+}
+
+.pre-navigation a {
+  font-size: 1rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.pre-navigation a:hover {
+  color: #F4ABC4;
+}
+
+.nav-link--1 {
+  margin-right: 1px;
+}

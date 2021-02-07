@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Get Fonts from Google Fonts, Shape Dividers & Start building the Home Page! 
+// For Next Time: Start building main Navigation Bar 
 
 app.get('/', (req, res) => {
   res.render('home');
