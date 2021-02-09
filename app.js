@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Increase top and bottom navbar padding at small-screen size and continue...
+// For Next Time: Continue building home page heading
 
 app.get('/', (req, res) => {
   res.render('home');
