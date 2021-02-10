@@ -26,6 +26,46 @@ body {
   background-color: #000000;
 }
 
+.remove-space {  /* Removes Bootstrap left & right padding so alert can occupy 100% width */
+  padding: 0;
+}
+
+/* ALERT MESSAGE CONTAINER */
+
+.home-page-sect_a-alert-message-box {
+  width: 100%;
+  background-color: grey;
+  /* background-color: #FFF3E6; */
+}
+
+/* ALERT MESSAGE BOX */
+
+.alert-box {  /* First two lines allow multiple alerts to fade out slowly */
+  opacity: 1;
+  transition: opacity 0.6s;
+  color: #EEEEEE;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #F0C38E;
+}
+
+/* CLOSE BUTTON */
+
+.closebtn {
+  transition: 0.3s;
+  color: #EEEEEE;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 20px;
+  float: right;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.closebtn:hover {
+  color: #000000;
+}
+
 .pre-navigation a {
   font-size: 1rem;
   color: #FFFFFF;
