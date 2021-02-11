@@ -19,18 +19,16 @@ body {
 
 /* SECTION A */
 
-/* PRE-NAVIGATION BAR */
+/* ALERT MESSAGE CONTAINER */
 
 .home-page-sect_a-top-container--1 {
   width: 100vw;
-  background-color: #000000;
+  background-color: #F0C38E;
 }
 
 .remove-space {  /* Removes Bootstrap left & right padding so alert can occupy 100% width */
   padding: 0;
 }
-
-/* ALERT MESSAGE CONTAINER */
 
 .home-page-sect_a-alert-message-box {
   width: 100%;
@@ -66,6 +64,45 @@ body {
   color: #000000;
 }
 
+/* ALERT MESSAGE */
+
+.home-page-sect_a-alert-text-icon-container {
+  text-align: center;
+}
+
+.home-page-sect_a-alert-icon-container {
+  font-size: 1rem;
+  color: #7E0FC5;
+  display: inline-block;
+}
+
+.home-page-sect_a-alert-text-container {
+  display: inline-block;
+}
+
+.home-page-sect_a-alert-text {
+  font-size: 0.75rem;
+  color: #050505;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-page-sect_a-alert-text {
+    font-size: 1rem;
+  }
+}
+
+
+/* PRE-NAVIGATION BAR */
+
+.home-page-sect_a-top-container--2 {
+  width: 100vw;
+  background-color: #000000;
+}
+
+.remove-space {  /* Removes Bootstrap left & right padding so alert can occupy 100% width */
+  padding: 0;
+}
+
 .pre-navigation a {
   font-size: 1rem;
   color: #FFFFFF;
@@ -82,7 +119,7 @@ body {
 
 /* NAVIGATION BAR */
 
-.home-page-sect_a-top-container--2 {
+.home-page-sect_a-top-container--3 {
   width: 100vw;
   position: relative;
   background-color: #0D335D;
