@@ -26,24 +26,23 @@ body {
   background-color: #F0C38E;
 }
 
-.remove-space {  /* Removes Bootstrap left & right padding so alert can occupy 100% width */
+.remove-spacing {  /* Removes Bootstrap left & right padding so alert can occupy 100% width */
   padding: 0;
 }
 
-.home-page-sect_a-alert-message-box {
+.home-page-sect_a-alert-message-box {  /* Control width of alert message by adjusting width property */
   width: 100%;
   background-color: grey;
-  /* background-color: #FFF3E6; */
 }
 
 /* ALERT MESSAGE BOX */
 
 .alert-box {  /* First two lines allow multiple alerts to fade out slowly */
-  opacity: 1;
   transition: opacity 0.6s;
+  opacity: 1;
   color: #EEEEEE;
-  padding: 20px;
-  margin-bottom: 15px;
+  padding: 20px 20px 10px 20px;
+  position: relative;
   background-color: #F0C38E;
 }
 
@@ -51,13 +50,25 @@ body {
 
 .closebtn {
   transition: 0.3s;
-  color: #EEEEEE;
+  position: absolute;  /* positions close button relative to '.alert-box' */
+  right: 20px;
+  color: #050505;
   font-weight: 500;
   font-size: 1.375rem;
-  line-height: 20px;
-  float: right;
   cursor: pointer;
-  margin-left: 15px;
+  /*transform: translate(8px, -12px);*/  /* Optional: Places close button on top right corner */
+}
+
+@media only screen and (min-width: 992px) {  /* Targeting large-screen devices and up */
+  .closebtn {
+    top: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
+  .closebtn {
+    top: 13.5px;
+  }
 }
 
 .closebtn:hover {
@@ -74,21 +85,34 @@ body {
   font-size: 1rem;
   color: #7E0FC5;
   display: inline-block;
+  position: absolute;  /* MUST be positioned relative to '.alert-box' */
+  left: 20px;
 }
 
 .home-page-sect_a-alert-text-container {
   display: inline-block;
 }
 
-.home-page-sect_a-alert-text {
-  font-size: 0.75rem;
+.home-page-sect_a-alert-text {  /* Targeting small-screen devices & others */
+  font-size: 0.75rem;  /* Small-screen */
   color: #050505;
+  line-height: 1.18rem;  /* Small-screen */
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
   .home-page-sect_a-alert-text {
     font-size: 1rem;
   }
+}
+
+.home-page-sect_a-alert-text a:link {
+  color: #7E0FC5;
+  text-decoration: none;
+}
+
+.home-page-sect_a-alert-text a:hover {
+  color: #7E0FC5;
+  text-decoration: underline;
 }
 
 
