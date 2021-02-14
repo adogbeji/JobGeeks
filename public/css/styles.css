@@ -306,6 +306,8 @@ body {
   font-weight: 500;
   letter-spacing: 2.25px;
   display: block;  /* Places span tags above each other */
+  animation-name: slideInFromLeft;
+  animation-duration: 4.7s;
 }
 
 @media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
@@ -319,10 +321,56 @@ body {
   font-size: 1.4rem;  /* Small-screen */
   font-weight: 300;
   display: block;  /* Places span tags above each other */
+  animation-name: slideInFromRight;
+  animation-duration: 4.7s;
 }
 
 @media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
   .home-page-sect_b-subheading {
     font-size: 2.5rem;
   }
+}
+
+
+@keyframes slideInFromLeft {  /* Percentages correspond to times during animation */
+  0% {  /* Before animation starts */
+    opacity: 0;
+    transform: translate(-25%, -55px);
+  }
+
+  100% {  /* When animation has finished */
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideInFromRight {  /* Percentages correspond to times during animation */
+  0% {  /* Before animation starts */
+    opacity: 0;
+    transform: translate(25%, -55px);
+  }
+
+  100% {  /* When animation has finished */
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.home-page-sect_b-button-container--1 {
+  width: 90%;
+  margin: auto;
+  background-color: #00FF00;
+}
+
+.home-page-sect_b-button-container--2 {  /* Controls button positioning */
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background-color: grey;
+}
+
+.home-page-sect_b-button-colour {  /* Controls button size */
+  color: #EEEEEE;
+  width: 60%;
+  background-color: #111111;
 }

@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Add animations to Home Page header text!
+// For Next Time: continue building button underneath h1 text
 
 app.get('/', (req, res) => {
   res.render('home');
