@@ -317,6 +317,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_b-heading {
+    transform: translateX(-8px);
+    animation-name: slideInFromLeftSmallScreen;
+    animation-duration: 4.7s;
+  }
+}
+
 .home-page-sect_b-subheading {  /* Targeting small-screen devices & others */
   font-size: 1.4rem;  /* Small-screen */
   font-weight: 300;
@@ -328,6 +336,18 @@ body {
 @media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
   .home-page-sect_b-subheading {
     font-size: 2.5rem;
+  }
+}
+
+@keyframes slideInFromLeftSmallScreen {  /* Percentages correspond to times during animation */
+  0% {  /* Before animation starts */
+    opacity: 0;
+    transform: translate(-25%, -55px);
+  }
+
+  100% {  /* When animation has finished */
+    opacity: 1;
+    transform: translate(-8px, 0);  /* Finishes in SAME x-axis position it started in */
   }
 }
 
@@ -359,18 +379,39 @@ body {
 .home-page-sect_b-button-container--1 {
   width: 90%;
   margin: auto;
-  background-color: #00FF00;
+  padding: 10px 0 40px 0;
+  /* background-color: #00FF00; */
 }
 
-.home-page-sect_b-button-container--2 {  /* Controls button positioning */
-  width: 60%;
+.home-page-sect_b-button-container--2 {  /* Targeting small-screen devices & others */
+  width: 70%;  /* Controls visible button size */
   margin: auto;
   text-align: center;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
-.home-page-sect_b-button-colour {  /* Controls button size */
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_b-button-container--2 {
+    width: 40%;
+  }
+}
+
+.home-page-sect_b-button-colour:link, .home-page-sect_b-button-colour:visited {
+  transition: 0.85s;
   color: #EEEEEE;
-  width: 60%;
-  background-color: #111111;
+  width: 100%;  /* Creates 'block' button */
+  border-radius: 25px;
+  background-image: linear-gradient(125deg, #292121, #7E0FC5);
+}
+
+.home-page-sect_b-button-colour:hover {
+  transform: scale(1.03);
+}
+
+.home-page-sect_b-button-colour:hover {
+  color: #EEEEEE;
+}
+
+.home-page-sect_b-button-colour:active {
+  color: #FFFF00;
 }
