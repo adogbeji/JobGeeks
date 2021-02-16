@@ -415,3 +415,59 @@ body {
 .home-page-sect_b-button-colour:active {
   color: #FFFF00;
 }
+
+.home-page-sect_b-img-section {
+  width: 90%;
+  margin: auto;
+  background-color: grey;
+}
+
+/* .home-page-sect_b-card-1 {
+  border: none;
+  background-color: #FFF3E6;
+} */
+
+.home-page-sect_b-img-container-1 {
+  width: 285px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.home-page-sect_b-img-container-1 img {
+  max-width: 100%;
+  height: auto;
+  width: 285px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {  /* Small-screen */
+  .home-page-sect_b-img-container-1 {
+    transform: translateX(-7%) scale(0.9);
+  }
+
+  .home-page-sect_b-img-container-1 img {
+    transform: translateX(-7%) scale(0.9);
+  }
+}
+
+.home-page-sect_b-text-container--2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.home-page-sect_b-text--1 {  /* Targeting small-screen devices & others */
+  font-size: 1.6rem;  /* Small-screen */
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_b-text--1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_b-text--1 {
+    transform: translateY(-23px);
+  }
+}
