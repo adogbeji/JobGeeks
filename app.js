@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Continue building images & text underneath button!
+// For Next Time: Make button bigger and add some shadow!
 
 app.get('/', (req, res) => {
   res.render('home');
