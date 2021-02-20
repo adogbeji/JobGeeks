@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Start building Section C!
+// For Next Time: Scale down 2nd image on small-screen + change font-size & text colour!
 
 app.get('/', (req, res) => {
   res.render('home');
