@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Get icons to add beneath Section C text
+// For Next Time: Start adding pictures beneath Section C text
 
 app.get('/', (req, res) => {
   res.render('home');
