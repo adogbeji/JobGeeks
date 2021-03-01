@@ -618,7 +618,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {  /* Targeting smalll-screen devices */
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
   .home-page-sect_c-spacer-1 {
     padding-bottom: 20px;
   }
@@ -684,11 +684,17 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_c-spacer-2 {
+    padding-bottom: 50px;
+  }
+}
+
 .home-page-sect_c-img-container-2 {
   width: 300px;
   margin: auto;
   border-radius: 20px;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 .home-page-sect_c-img-container-2 img {
@@ -700,11 +706,11 @@ body {
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
   .home-page-sect_c-img-container-2 {
-    transform: translateX(-30px) scale(0.82);
+    transform: translateX(-20px) scale(0.88);
   }
 
   .home-page-sect_c-img-container-2 img {
-    transform: translateX(-30px) scale(0.82);
+    transform: translateX(-20px) scale(0.88);
   }
 }
 
@@ -734,5 +740,58 @@ body {
 @media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
   .home-page-sect_c-text--3 {
     transform: translateX(-5px);
+  }
+}
+
+.home-page-sect_c-img-container-3 {
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  /* background-color: #000000; */
+}
+
+.home-page-sect_c-img-container-3 img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
+  .home-page-sect_c-img-container-3 {
+    transform: translateX(-17px) scale(0.85);
+  }
+
+  .home-page-sect_c-img-container-3 img {
+    transform: translateX(-17px) scale(0.85);
+  }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_c-img-container-3 {
+    transform: translateX(-5px) scale(0.95);
+  }
+
+  .home-page-sect_c-img-container-3 img {
+    transform: translateX(-5px) scale(0.95);
+  }
+}
+
+.home-page-sect_c-text-container--4 {
+  width: 95%;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  /* background-color: #FF0000; */
+}
+
+.home-page-sect_c-text--4 {
+  font-size: 1rem;
+  color: #EEEEEE;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_c-text--4 {
+    transform: translateX(-8px);
   }
 }
