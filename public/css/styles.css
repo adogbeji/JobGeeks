@@ -560,6 +560,7 @@ body {
 .home-page-sect_c-middle-container--2 {
   width: 100vw;
   position: relative;
+  padding-bottom: 80px;
   background-color: #1A508B;
 }
 
@@ -603,7 +604,7 @@ body {
 .home-page-sect_c-text--1 {  /* Targeting small-screen devices & others */
   font-size: 1.6rem;  /* Small-screen */
   font-weight: 200;
-  color: #F4ABC4;
+  color: #FFFF00;
 }
 
 @media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
@@ -743,6 +744,16 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_c-spacer-3 {
+    padding-bottom: 28px;
+  }
+}
+
+.home-page-sect_c-highlight {
+  text-decoration: solid underline #BD00AA;
+}
+
 .home-page-sect_c-img-container-3 {
   width: 300px;
   margin: auto;
@@ -792,6 +803,59 @@ body {
 
 @media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
   .home-page-sect_c-text--4 {
+    transform: translateX(-8px);
+  }
+}
+
+.home-page-sect_c-img-container-4 {
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  /* background-color: #000000; */
+}
+
+.home-page-sect_c-img-container-4 img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
+  .home-page-sect_c-img-container-4 {
+    transform: scale(0.95);
+  }
+
+  .home-page-sect_c-img-container-4 img {
+    transform: scale(0.95);
+  }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_c-img-container-4 {
+    transform: translateX(-5px) scale(0.95);
+  }
+
+  .home-page-sect_c-img-container-4 img {
+    transform: translateX(-5px) scale(0.95);
+  }
+}
+
+.home-page-sect_c-text-container--5 {
+  width: 95%;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  /* background-color: #FF0000; */
+}
+
+.home-page-sect_c-text--5 {
+  font-size: 1rem;
+  color: #EEEEEE;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_c-text--5 {
     transform: translateX(-8px);
   }
 }
