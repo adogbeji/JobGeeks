@@ -584,7 +584,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1612716048 .shape-fill--3 {
-    fill: #FFFFFF;
+    fill: #FFF3E6;
 }
 
 .home-page-sect_c-text-container--1 {  /* Targeting small-screen devices & others */
@@ -858,4 +858,35 @@ body {
   .home-page-sect_c-text--5 {
     transform: translateX(-8px);
   }
+}
+
+/* SECTION D */
+
+.home-page-sect_d-middle-container--3 {
+  width: 100vw;
+  position: relative;
+  background-color: #FFF3E6;
+}
+
+/* SHAPE DIVIDER */
+
+.custom-shape-divider-bottom-1612716048 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612716048 svg {
+    position: relative;
+    display: block;
+    width: calc(146% + 1.3px);
+    height: 25px;
+}
+
+.custom-shape-divider-bottom-1612716048 .shape-fill--4 {
+    fill: #FFFFFF;
 }
