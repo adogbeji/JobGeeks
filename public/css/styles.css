@@ -890,3 +890,49 @@ body {
 .custom-shape-divider-bottom-1612716048 .shape-fill--4 {
     fill: #FFFFFF;
 }
+
+.home-page-sect_d-job-section {
+  width: 90%;
+  margin: auto;
+  background-color: grey;
+}
+
+.home-page-sect_d-img-container--1 {
+  width: 280px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.home-page-sect_d-img-container--1 img {
+  max-width: 100%;
+  height: auto;
+  width: 280px;
+  border-radius: 20px;
+}
+
+.home-page-sect_d-text-container--1 {
+  /* padding-top: 5px; */
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_d-img-container--1 {
+    transform: translateX(-2px) scale(0.95);
+  }
+
+  .home-page-sect_d-img-container--1 img {
+    transform: translateX(-2px) scale(0.95);
+  }
+}
+
+.home-page-sect_d-text-1 {  /* Targeting small-screen devices & others */
+  font-size: 1.4rem;  /* Small-screen */
+  font-weight: 400;
+  color: #1A508B;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_d-text-1 {
+    font-size: 1.6rem;
+  }
+}
