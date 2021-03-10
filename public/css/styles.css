@@ -17,15 +17,6 @@ body {
   color: #000000;
 }
 
-ol {
-  list-style-type: none;
-  list-style-position: outside;
-  list-style-image: none;
-}
-
-li {
-  line-height: 1.4;
-}
 
 /* SECTION A */
 
@@ -913,6 +904,7 @@ li {
 
 .home-page-sect_d-text-img-container {
   padding: 5px;  /* 'Cushion' Padding */
+  text-align: center;  /* Centres <ol></ol> tag */
 }
 
 
@@ -978,5 +970,21 @@ li {
 
 .home-page-sect_d-list-container--1 {
   padding-left: 0;
-  background-color: #FFFF00;
+  padding-top: 8px;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+  display: inline-block;
+  text-align: left;
+  /* background-color: #FFFF00; */
+}
+
+.home-page-sect_d-list-container--1 li {
+  font-size: 0.95rem;
+  color: #FF0000;
+  line-height: 1.5;
+}
+
+.home-page-sect_d-list-container--1 i {
+  color: #292121;
 }
