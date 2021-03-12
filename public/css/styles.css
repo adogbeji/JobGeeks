@@ -1,4 +1,4 @@
-*, *::before, *::after {  /* CSS Reset */
+* {  /* CSS Reset */
   margin: 0;
   padding: 0;
   box-sizing: border-box;  /* Border & Padding now included in width & Height */
@@ -1007,5 +1007,28 @@ body {
   list-style-image: none;
   text-align: left;
   display: inline-block;
-  background-color: #FFFF00;
+  /* background-color: #FFFF00; */
+}
+
+.home-page-sect_d-list-container--2 li {
+  font-size: 1.2rem;
+  color: #FF0000;
+  line-height: 1.5;
+}
+
+.home-page-sect_d-list-container--2 i {
+  color: #292121;
+}
+
+.home-page-sect_d-img-container--3 {
+  width: 280px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.home-page-sect_d-img-container--3 img {
+  max-width: 100%;
+  height: auto;
+  width: 280px;
+  border-radius: 20px;
 }
