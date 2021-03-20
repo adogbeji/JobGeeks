@@ -1183,8 +1183,11 @@ body {
     fill: #FFFFFF;
 }
 
-.home-page-sect_e-achievements {
+.home-page-sect_e-achievements-section {
+  width: 90%;
+  margin: auto;
   padding: 45px 0 60px 0;
+  /* background-color: grey; */
 }
 
 .home-page-sect_e-card--1 {
@@ -1200,7 +1203,7 @@ body {
 
 @media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
   .home-page-sect_e-text-1 {
-    transform: translateX(30px);
+    transform: translateX(20px);
   }
 }
 
@@ -1217,7 +1220,7 @@ body {
 
 @media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
   .home-page-sect_e-text-2 {
-    transform: translateX(53px);
+    transform: translateX(40px);
   }
 }
 
@@ -1234,6 +1237,23 @@ body {
 
 @media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
   .home-page-sect_e-text-3 {
-    transform: translateX(42px);
+    transform: translateX(30px);
+  }
+}
+
+.home-page-sect_e-card--4 {
+  border: none;
+  background-color: #1A508B;
+}
+
+.home-page-sect_e-text-4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_e-text-4 {
+    transform: translateX(45px);
   }
 }
