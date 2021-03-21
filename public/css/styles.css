@@ -1257,3 +1257,42 @@ body {
     transform: translateX(45px);
   }
 }
+
+.home-page-sect_e-job-section {
+  width: 90%;
+  margin: auto;
+  /* background-color: grey; */
+}
+
+.home-page-sect_e-text-img-container {
+  padding: 5px;  /* 'Cushion' Padding */
+  text-align: center;
+}
+
+.home-page-sect_e-img-container--1 {
+  font-size: 5.2rem;
+  color: #FFFF00;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 992px) {  /* Targeting large-screen devices and up */
+  .home-page-sect_e-img-container--1 {
+    transform: translateY(12px);
+  }
+}
+
+.home-page-sect_e-text-container--6 {
+  text-align: center;
+}
+
+.home-page-sect_e-text-5 {  /* Targeting small-screen devices */
+  font-size: 1.6rem;  /* Small-screen */
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_e-text-5 {
+    font-size: 1.9rem;
+  }
+}
