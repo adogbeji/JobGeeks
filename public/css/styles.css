@@ -1411,3 +1411,35 @@ body {
     transform: translateX(-3px);
   }
 }
+
+.home-page-sect_f-benefits-container {
+  width: 90%;
+  margin: auto;
+  background-color: grey;
+}
+
+/* .home-page-sect_f-card-1 {
+  border: none;
+  background-color: #FFF3E6;
+} */
+
+
+.home-page-sect_f-number-container {
+  width: 145px;
+  margin: auto;
+  line-height: 145px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2.5px solid #000000;
+  font-size: 2.95rem;
+}
+
+.home-page-sect_f-text-container {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.home-page-sect_f-text-1 {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
