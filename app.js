@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Begin styling carousel on Section G of Home Page!
+// For Next Time: Bootstrap carousel not workng with Shape Divider CSS? Build your own testimonials!
 
 app.get('/', (req, res) => {
   res.render('home');

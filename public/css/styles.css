@@ -1538,19 +1538,12 @@ body {
 .home-page-sect_g-carousel-container {
   width: 90%;
   margin: auto;
-  padding-bottom: 60px;
-  /* background-color: grey; */
+  padding: 80px 0 40px 0;
+  background-color: grey;
 }
 
 .carousel-inner {
   width: 80%;
   margin: auto;
   background-color: #FFFF00;
-}
-
-.home-page-sect_g-text-img-container {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  background-color: #0000FF;
 }
