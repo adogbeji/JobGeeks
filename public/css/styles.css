@@ -1523,9 +1523,10 @@ body {
   color: #FFFFFF;
 }
 
-@media only screen and (min-with: 768px) {  /* Targeting medium-screen devices */
+@media only screen and (min-with: 768px) {  /* Targeting medium-screen devices and up */
   .home-page-sect_g-text-1 {
-    font-size: 1.85rem;
+    /* font-size: 1.85rem; */
+    font-size: 3rem;
   }
 }
 
@@ -1538,7 +1539,7 @@ body {
 .home-page-sect_g-review-container {  /* Targeting small-screen devices & others */
   width: 90%;
   margin: auto;
-  padding: 25px 0 60px 0;  /* Small-screen */
+  padding: 25px 0 80px 0;  /* Small-screen */
   /* background-color: grey; */
 }
 
@@ -1555,7 +1556,8 @@ body {
 
 @media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
   .home-page-sect_g-card-1 {
-    transform: translateX(-5px);
+    margin-bottom: 15px;
+    transform: translateX(-7px);
   }
 }
 
@@ -1581,4 +1583,27 @@ body {
 
 .home-page-sect_g-text-container--3 {
   padding-top: 6px;
+}
+
+.home-page-sect_g-card-2 {
+  border-radius: 0;
+  background-color: #E4E4E4;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_g-card-2 {
+    margin-bottom: 15px;
+    transform: translateX(-7px);
+  }
+}
+
+.home-page-sect_g-card-3 {
+  border-radius: 0;
+  background-color: #E4E4E4;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_g-card-3 {
+    transform: translateX(-7px);
+  }
 }

@@ -1,562 +1,706 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JobGeeks | Home Page</title>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>JobGeeks | Home Page</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ec77412d4b.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/ec77412d4b.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon-files/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon-files/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon-files/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon-files/site.webmanifest" />
 
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon-files/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-files/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-files/favicon-16x16.png">
-  <link rel="manifest" href="favicon-files/site.webmanifest">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-
-  <header class="home-page-sect_a-top-container--1">
-    <div class="container-fluid remove-spacing">
-      <!-- Alert Message -->
-      <div class="home-page-sect_a-alert-message-box">
-        <div class="alert-box">
-          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-          <div class="home-page-sect_a-alert-text-icon-container">
-            <span class="home-page-sect_a-alert-icon-container">
-              <i class="far fa-check-circle"></i>
-            </span>
-            <div class="home-page-sect_a-alert-text-container">
-              <p class="home-page-sect_a-alert-text">We are currently in partnership with <a href="https://www.topcv.co.uk/">TopCV</a> to offer better services!</p>
+  <body>
+    <header class="home-page-sect_a-top-container--1">
+      <div class="container-fluid remove-spacing">
+        <!-- Alert Message -->
+        <div class="home-page-sect_a-alert-message-box">
+          <div class="alert-box">
+            <span
+              class="closebtn"
+              onclick="this.parentElement.style.display='none';"
+              >&times;</span
+            >
+            <div class="home-page-sect_a-alert-text-icon-container">
+              <span class="home-page-sect_a-alert-icon-container">
+                <i class="far fa-check-circle"></i>
+              </span>
+              <div class="home-page-sect_a-alert-text-container">
+                <p class="home-page-sect_a-alert-text">
+                  We are currently in partnership with
+                  <a href="https://www.topcv.co.uk/">TopCV</a> to offer better
+                  services!
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  <header class="home-page-sect_a-top-container--2">
-    <div class="container-fluid">
-      <div class="row justify-content-end">
-        <div class="col-lg-3 text-center text-md-end pe-md-4">
-          <div class="pre-navigation">
-            <a href="/account/login" class="nav-link--1">Login</a>
-            <a href="/account/register" class="nav-link--2">Register</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <header class="home-page-sect_a-top-container--3">
-    <nav class="navbar navbar-expand-lg">
-      <!-- Shape Divider -->
-      <div class="custom-shape-divider-bottom-1612716048">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill--1"></path>
-        </svg>
-      </div>
+    </header>
+    <header class="home-page-sect_a-top-container--2">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="images/logo.png" alt="Website Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="fas fa-bars hamburger-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="nav-link-highlight">About</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="nav-link-highlight">Contact</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="nav-link-highlight">Clients</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <section class="home-page-sect_b-middle-container--1">
-    <div class="container-fluid">
-      <div class="custom-shape-divider-bottom-1612716048">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill--2"></path>
-        </svg>
-      </div>
-      <div class="home-page-sect_b-text-container--1">
-        <h1>
-          <span class="home-page-sect_b-heading">JobGeeks</span>
-          <span class="home-page-sect_b-subheading">Revolutionary job-recruitment...</span>
-        </h1>
-      </div>
-      <div class="home-page-sect_b-button-container--1">
-        <div class="home-page-sect_b-button-container--2">
-          <a href="/account/register" class="btn home-page-sect_b-button-colour btn-lg">Register</a>
-        </div>
-      </div>
-      <div class="home-page-sect_b-img-section">
-        <div class="container">
-  <div class="row justify-content-evenly">
-    <div class="col-md-auto">
-      <div class="card home-page-sect_b-card-1">
-  <div class="card-body">
-    <div class="home-page-sect_b-text-img-container">
-      <div class="home-page-sect_b-img-container-1">
-        <img src="images/img-1.png" alt="Drawing of a CV">
-      </div>
-      <div class="home-page-sect_b-text-container--2">
-        <h4 class="home-page-sect_b-text--1">No CVs involved!</h4>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-    <div class="col-md-auto">
-      <div class="card home-page-sect_b-card-2">
-  <div class="card-body">
-    <div class="home-page-sect_b-text-img-container">
-      <div class="home-page-sect_b-img-container-2">
-        <img src="images/img-2.jpg" alt="Image describing various skills">
-      </div>
-      <div class="home-page-sect_b-text-container--3">
-        <h4 class="home-page-sect_b-text--2">Get hired based on skills!</h4>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-  </div>
-</div>
-      </div>
-    </div>
-  </section>
-  <section class="home-page-sect_c-middle-container--2">
-    <div class="container-fluid">
-      <!-- Shape Divider -->
-      <div class="custom-shape-divider-bottom-1612716048">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill--3"></path>
-          </svg>
-      </div>
-      <div class="home-page-sect_c-text-container--1">
-        <h3 class="home-page-sect_c-text--1">Talent-based recruiting for all</h3>
-      </div>
-      <!-- Pictures for Career Changers, Grads, non-grads, oversees -->
-  <div class="row justify-content-center g-0">  <!-- Centers last column at medium-screen -->
-    <div class="col-lg-3 col-md-4">
-      <div class="home-page-sect_c-text-img-container home-page-sect_c-spacer-1">
-        <div class="home-page-sect_c-img-container-1">
-          <img src="images/img-3.jpg" alt="Picture for career changers">
-        </div>
-        <div class="home-page-sect_c-text-container--2">
-          <p class="home-page-sect_c-text--2">Are you looking to switch careers? JobGeeks has excellent support for those wanting to start in a new industry.
-            Getting that first job in your new field isn't easy... that's why we have a dedicated part of our network exclusive for those
-            trying to cross the career bridge!
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-4">
-      <div class="home-page-sect_c-text-img-container home-page-sect_c-spacer-2">
-        <div class="home-page-sect_c-img-container-2">
-          <img src="images/img-4.png" alt="Picture for graduates">
-        </div>
-        <div class="home-page-sect_c-text-container--3">
-          <p class="home-page-sect_c-text--3">As a graduate, you have a leg up over some of your competition. We currently recruit for some of the <span class="home-page-sect_c-highlight text-uppercase fw-bold fst-italic">best</span> graduates employees.
-            If you have a 2:2 or above, JobGeeks will definitely find you a suitable role. You tell us your skills and we'll "hook" you up with the
-            best employers around in some of the most lucrative jobs
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-4">
-      <div class="home-page-sect_c-text-img-container home-page-sect_c-spacer-3">
-        <div class="home-page-sect_c-img-container-3">
-          <img src="images/img-5.png" alt="Picture for non-graduates">
-        </div>
-        <div class="home-page-sect_c-text-container--4">
-          <p class="home-page-sect_c-text--4">Being a non-graduate, you might assume that it's harder to find work or seek employment. Whilst that's certainly true for <span class="fw-bold fst-italic">graduate</span> jobs, there are plently of jobs out there
-          you can apply to. Better still, our team at JobGeeks can set you up with the best hiring managers to help you get the job you want
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-4">
-      <div class="home-page-sect_c-text-img-container">
-        <div class="home-page-sect_c-img-container-4">
-          <img src="images/img-6.png" alt="Picture for oversees workers">
-        </div>
-        <div class="home-page-sect_c-text-container--5">
-          <p class="home-page-sect_c-text--5">If you're coming to the UK from abroad, then you might need a little extra help. Luckily, JobGeeks provides specialst support for people in
-          your situation. Our Ovresees Careers Support team will ensure that your application meets the requirements of future employers</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  </section>
-  <section class="home-page-sect_d-middle-container--3">
-    <div class="container-fluid">
-      <!-- Shape Divider -->
-      <div class="custom-shape-divider-bottom-1612716048">
-       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-           <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill--4"></path>
-       </svg>
-   </div>
-
-  <div class="row justify-content-evenly home-page-sect_d-job-section--1">
-    <div class="col-md-auto">
-      <div class="home-page-sect_d-text-img-container home-page-sect_d-spacer-1">
-        <div class="home-page-sect_d-img-container--1">
-          <img src="images/img-7.jpg" alt="A picture with a 'Dream Job' sign">
-        </div>
-        <div class="home-page-sect_d-text-container--1">
-          <h4 class="home-page-sect_d-text-1">Top Quality Jobs</h4>
-        </div>
-        <ol class="home-page-sect_d-list-container--1">
-          <li>
-            <i class="far fa-check-circle"></i> Reputable companies
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Generous Employers
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Best job training
-          </li>
-        </ol>
-      </div>
-    </div>
-    <div class="col-md-auto">
-      <div class="home-page-sect_d-text-img-container home-page-sect_d-spacer-2">
-        <div class="home-page-sect_d-img-container--2">
-          <img src="images/img-8.jpg" alt="A picture of notes with coins">
-        </div>
-        <div class="home-page-sect_d-text-container--2">
-          <h4 class="home-page-sect_d-text-2">Generous Pay</h4>
-        </div>
-        <ol class="home-page-sect_d-list-container--2">
-          <li>
-            <i class="far fa-check-circle"></i> Great Pay
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Company Perks
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Private Insurance
-          </li>
-        </ol>
-      </div>
-    </div>
-  </div>
-
-  <div class="row justify-content-evenly home-page-sect_d-job-section--2">
-    <div class="col-md-auto">
-      <div class="home-page-sect_d-text-img-container home-page-sect_d-spacer-3">
-        <div class="home-page-sect_d-img-container--3">
-          <img src="images/img-9.jpg" alt="Picture of a happy man">
-        </div>
-        <div class="home-page-sect_d-text-container--3">
-          <h4 class="home-page-sect_d-text-3">Job Satisfaction</h4>
-        </div>
-        <ol class="home-page-sect_d-list-container--3">
-          <li>
-            <i class="far fa-check-circle"></i> Great Careers
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Employee Happiness
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Work-Life Balance
-          </li>
-        </ol>
-      </div>
-    </div>
-    <div class="col-md-auto">
-      <div class="home-page-sect_d-text-img-container">
-        <div class="home-page-sect_d-img-container--4">
-          <img src="images/img-10.jpg" alt="Work colleagues in a meeting room">
-        </div>
-        <div class="home-page-sect_d-text-container--4">
-          <h4 class="home-page-sect_d-text-4">Great Networks</h4>
-        </div>
-        <ol class="home-page-sect_d-list-container--4">
-          <li>
-            <i class="far fa-check-circle"></i> Build Connections
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Networking Opportunities
-          </li>
-          <li>
-            <i class="far fa-check-circle"></i> Great References
-          </li>
-        </ol>
-      </div>
-    </div>
-  </div>
-</div>
-  </section>
-  <section class="home-page-sect_e-middle-container--4">
-    <div class="container-fluid">
-      <!-- Shape Divider -->
-      <div class="custom-shape-divider-bottom-1612716048">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill--5"></path>
-        </svg>
-    </div>
-   <div class="home-page-sect_e-achievements-section">
-  <div class="row justify-content-evenly">
-    <div class="col-md-auto">
-      <div class="card home-page-sect_e-card--1">
-  <div class="card-body">
-    <div class="home-page-sect_e-text-container--1">
-      <h4 class="home-page-sect_e-text-1">350+ Companies</h4>
-    </div>
-  </div>
-</div>
-    </div>
-    <div class="col-md-auto">
-      <div class="card home-page-sect_e-card--2">
-  <div class="card-body">
-    <div class="home-page-sect_e-text-container--3">
-      <h4 class="home-page-sect_e-text-2">15yr Record</h4>
-    </div>
-  </div>
-</div>
-    </div>
-    <div class="col-md-auto">
-      <div class="card home-page-sect_e-card--3">
-  <div class="card-body">
-    <div class="home-page-sect_e-text-container--4">
-      <h4 class="home-page-sect_e-text-3">Global Network</h4>
-    </div>
-</div>
-    </div>
-  </div>
-    <div class="col-md-auto">
-      <div class="card home-page-sect_e-card--4">
-  <div class="card-body">
-    <div class="home-page-sect_e-text-container--5">
-      <h4 class="home-page-sect_e-text-4">3.2m Clients</h4>
-    </div>
-  </div>
-</div>
-    </div>
-  </div>
-</div>
-<div class="home-page-sect_e-job-section">
-  <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-auto">
-      <div class="home-page-sect_e-text-img-container home-page-sect_e-spacer">
-        <span class="home-page-sect_e-img-container--1">
-          <i class="fas fa-binoculars"></i>
-        </span>
-        <div class="home-page-sect_e-text-container--6">
-          <h4 class="home-page-sect_e-text-5">Where employers seek talent...</h4>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-auto">
-      <div class="home-page-sect_e-text-img-container">
-        <span class="home-page-sect_e-img-container--2">
-          <i class="fas fa-building"></i>
-        </span>
-        <div class="home-page-sect_e-text-container--7">
-          <h4 class="home-page-sect_e-text-6">Where talented people get noticed</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-  </section>
-  <section class="home-page-sect_f-middle-container--5">
-    <div class="container-fluid">
-      <!-- Shape Divider -->
-      <div class="custom-shape-divider-bottom-1612716048">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill--6"></path>
-      </svg>
-  </div>
-  <div class="home-page-sect_f-text-container--1">
-    <h3 class="home-page-sect_f-text-1">Benefits</h3>
-  </div>
-  <div class="home-page-sect_f-benefits-container">
-    <div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card home-page-sect_f-card-1">
-  <div class="card-body">
-    <div class="home-page-sect_f-number-text-container">
-      <div class="home-page-sect_f-number-container">
-        85%
-      </div>
-      <div class="home-page-sect_f-text-container">
-        <h4 class="home-page-sect_f-text-1">More Employable</h4>
-        <p class="home-page-sect_f-text-2">People who apply to companies through JobGeeks have an 85% better chance of
-          actually getting hired
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-    <div class="col-md-4">
-      <div class="card home-page-sect_f-card-2">
-  <div class="card-body">
-    <div class="home-page-sect_f-number-text-container">
-      <div class="home-page-sect_f-number-container">
-        20%
-      </div>
-      <div class="home-page-sect_f-text-container">
-        <h4 class="home-page-sect_f-text-1">Smoother Onboarding</h4>
-        <p class="home-page-sect_f-text-2">Finding the perfect job can be a difficult process. But with JobGeeks, your application process will be about 20% less than
-           what it would have been otherwise. In short, we make the job application process easier
-         </p>
-        </div>
-    </div>
-  </div>
-</div>
-    </div>
-    <div class="col-md-4">
-      <div class="card home-page-sect_f-card-3">
-  <div class="card-body">
-    <div class="home-page-sect_f-number-text-container">
-      <div class="home-page-sect_f-number-container">
-        15%
-      </div>
-    <div class="home-page-sect_f-text-container">
-      <h4 class="home-page-sect_f-text-1">Better Pay</h4>
-      <p class="home-page-sect_f-text-2">Did you know that your salary is usually higher when you apply through JobGeeks. Yes... about 15% up from the 'norm', so send over your profile
-      for a review now!</p>
-    </div>
-  </div>
-  </div>
-</div>
-    </div>
-  </div>
-</div>
-  </div>
-</div>
-  </section>
-  <section class="home-page-sect_g-middle-container--6">
-    <div class="container-fluid">
-      <!-- Shape Divider -->
-      <div class="custom-shape-divider-bottom-1612716048">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill--7"></path>
-      </svg>
-  </div>
-   <div class="home-page-sect_g-text-container--1">
-     <h3 class="home-page-sect_g-text-1">Listen to our past clients!</h3>
-   </div>
-   <div class="home-page-sect_g-review-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="card home-page-sect_g-card-1">
-            <div class="card-body">
-              <div class="home-page-sect_g-text-img-container">
-        <span class="home-page-sect_g-img-container">
-          <i class="fas fa-quote-right"></i>
-        </span>
-        <div class="home-page-sect_g-text-container--2">
-          <h4 class="home-page-sect_g-text-2">After coming to the UK, it wasn't easy finding a job. Luckily, JobGeeks showed me a clear
-            path and I've now got a job
-            in the City of London!
-          </h4>
-        </div>
-        <div class="home-page-sect_g-text-container--3">
-          <p class="fw-light fst-italic">-Michael T</p>
-        </div>
-      </div>
+        <div class="row justify-content-end">
+          <div class="col-lg-3 text-center text-md-end pe-md-4">
+            <div class="pre-navigation">
+              <a href="/account/login" class="nav-link--1">Login</a>
+              <a href="/account/register" class="nav-link--2">Register</a>
             </div>
           </div>
         </div>
-        <div class="col-sm">
-          One of three columns
+      </div>
+    </header>
+    <header class="home-page-sect_a-top-container--3">
+      <nav class="navbar navbar-expand-lg">
+        <!-- Shape Divider -->
+        <div class="custom-shape-divider-bottom-1612716048">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill--1"
+            ></path>
+          </svg>
         </div>
-        <div class="col-sm">
-          One of three columns
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"
+            ><img src="images/logo.png" alt="Website Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fas fa-bars hamburger-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><span class="nav-link-highlight">About</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><span class="nav-link-highlight">Contact</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><span class="nav-link-highlight">Clients</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="home-page-sect_b-middle-container--1">
+      <div class="container-fluid">
+        <div class="custom-shape-divider-bottom-1612716048">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill--2"
+            ></path>
+          </svg>
+        </div>
+        <div class="home-page-sect_b-text-container--1">
+          <h1>
+            <span class="home-page-sect_b-heading">JobGeeks</span>
+            <span class="home-page-sect_b-subheading"
+              >Revolutionary job-recruitment...</span
+            >
+          </h1>
+        </div>
+        <div class="home-page-sect_b-button-container--1">
+          <div class="home-page-sect_b-button-container--2">
+            <a
+              href="/account/register"
+              class="btn home-page-sect_b-button-colour btn-lg"
+              >Register</a
+            >
+          </div>
+        </div>
+        <div class="home-page-sect_b-img-section">
+          <div class="container">
+            <div class="row justify-content-evenly">
+              <div class="col-md-auto">
+                <div class="card home-page-sect_b-card-1">
+                  <div class="card-body">
+                    <div class="home-page-sect_b-text-img-container">
+                      <div class="home-page-sect_b-img-container-1">
+                        <img src="images/img-1.png" alt="Drawing of a CV" />
+                      </div>
+                      <div class="home-page-sect_b-text-container--2">
+                        <h4 class="home-page-sect_b-text--1">
+                          No CVs involved!
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-auto">
+                <div class="card home-page-sect_b-card-2">
+                  <div class="card-body">
+                    <div class="home-page-sect_b-text-img-container">
+                      <div class="home-page-sect_b-img-container-2">
+                        <img
+                          src="images/img-2.jpg"
+                          alt="Image describing various skills"
+                        />
+                      </div>
+                      <div class="home-page-sect_b-text-container--3">
+                        <h4 class="home-page-sect_b-text--2">
+                          Get hired based on skills!
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-   </div>
-
-      <!-- <div class="home-page-sect_g-text-img-container">
-        <span class="home-page-sect_g-img-container">
-          <i class="fas fa-quote-right"></i>
-        </span>
-        <div class="home-page-sect_g-text-container--2">
-          <h4 class="home-page-sect_g-text-2">Getting my first graduate job at IBM wouldn't have happened without JobGeeks - love you
-            all xxx!
-          </h4>
+    </section>
+    <section class="home-page-sect_c-middle-container--2">
+      <div class="container-fluid">
+        <!-- Shape Divider -->
+        <div class="custom-shape-divider-bottom-1612716048">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill--3"
+            ></path>
+          </svg>
+        </div>
+        <div class="home-page-sect_c-text-container--1">
+          <h3 class="home-page-sect_c-text--1">
+            Talent-based recruiting for all
+          </h3>
+        </div>
+        <!-- Pictures for Career Changers, Grads, non-grads, oversees -->
+        <div class="row justify-content-center g-0">
+          <!-- Centers last column at medium-screen -->
+          <div class="col-lg-3 col-md-4">
+            <div
+              class="home-page-sect_c-text-img-container home-page-sect_c-spacer-1"
+            >
+              <div class="home-page-sect_c-img-container-1">
+                <img src="images/img-3.jpg" alt="Picture for career changers" />
+              </div>
+              <div class="home-page-sect_c-text-container--2">
+                <p class="home-page-sect_c-text--2">
+                  Are you looking to switch careers? JobGeeks has excellent
+                  support for those wanting to start in a new industry. Getting
+                  that first job in your new field isn't easy... that's why we
+                  have a dedicated part of our network exclusive for those
+                  trying to cross the career bridge!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div
+              class="home-page-sect_c-text-img-container home-page-sect_c-spacer-2"
+            >
+              <div class="home-page-sect_c-img-container-2">
+                <img src="images/img-4.png" alt="Picture for graduates" />
+              </div>
+              <div class="home-page-sect_c-text-container--3">
+                <p class="home-page-sect_c-text--3">
+                  As a graduate, you have a leg up over some of your
+                  competition. We currently recruit for some of the
+                  <span
+                    class="home-page-sect_c-highlight text-uppercase fw-bold fst-italic"
+                    >best</span
+                  >
+                  graduates employees. If you have a 2:2 or above, JobGeeks will
+                  definitely find you a suitable role. You tell us your skills
+                  and we'll "hook" you up with the best employers around in some
+                  of the most lucrative jobs
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div
+              class="home-page-sect_c-text-img-container home-page-sect_c-spacer-3"
+            >
+              <div class="home-page-sect_c-img-container-3">
+                <img src="images/img-5.png" alt="Picture for non-graduates" />
+              </div>
+              <div class="home-page-sect_c-text-container--4">
+                <p class="home-page-sect_c-text--4">
+                  Being a non-graduate, you might assume that it's harder to
+                  find work or seek employment. Whilst that's certainly true for
+                  <span class="fw-bold fst-italic">graduate</span> jobs, there
+                  are plently of jobs out there you can apply to. Better still,
+                  our team at JobGeeks can set you up with the best hiring
+                  managers to help you get the job you want
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="home-page-sect_c-text-img-container">
+              <div class="home-page-sect_c-img-container-4">
+                <img
+                  src="images/img-6.png"
+                  alt="Picture for oversees workers"
+                />
+              </div>
+              <div class="home-page-sect_c-text-container--5">
+                <p class="home-page-sect_c-text--5">
+                  If you're coming to the UK from abroad, then you might need a
+                  little extra help. Luckily, JobGeeks provides specialst
+                  support for people in your situation. Our Ovresees Careers
+                  Support team will ensure that your application meets the
+                  requirements of future employers
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <span class="fw-light fst-italic">Matt J</span> -->
+    </section>
+    <section class="home-page-sect_d-middle-container--3">
+      <div class="container-fluid">
+        <!-- Shape Divider -->
+        <div class="custom-shape-divider-bottom-1612716048">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill--4"
+            ></path>
+          </svg>
+        </div>
 
-      <!-- <div class="home-page-sect_g-text-img-container">
-        <span class="home-page-sect_g-img-container">
-          <i class="fas fa-quote-right"></i>
-        </span>
-        <div class="home-page-sect_g-text-container--2">
-          <h4 class="home-page-sect_g-text-2">The support provided by JobGeeks is just unparalleled. If you're looking for a high-profile
-            job, then you've <span class="fw-bold fst-italic">got</span> to try
-            JobGeeks!
-          </h4>
+        <div class="row justify-content-evenly home-page-sect_d-job-section--1">
+          <div class="col-md-auto">
+            <div
+              class="home-page-sect_d-text-img-container home-page-sect_d-spacer-1"
+            >
+              <div class="home-page-sect_d-img-container--1">
+                <img
+                  src="images/img-7.jpg"
+                  alt="A picture with a 'Dream Job' sign"
+                />
+              </div>
+              <div class="home-page-sect_d-text-container--1">
+                <h4 class="home-page-sect_d-text-1">Top Quality Jobs</h4>
+              </div>
+              <ol class="home-page-sect_d-list-container--1">
+                <li><i class="far fa-check-circle"></i> Reputable companies</li>
+                <li><i class="far fa-check-circle"></i> Generous Employers</li>
+                <li><i class="far fa-check-circle"></i> Best job training</li>
+              </ol>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div
+              class="home-page-sect_d-text-img-container home-page-sect_d-spacer-2"
+            >
+              <div class="home-page-sect_d-img-container--2">
+                <img
+                  src="images/img-8.jpg"
+                  alt="A picture of notes with coins"
+                />
+              </div>
+              <div class="home-page-sect_d-text-container--2">
+                <h4 class="home-page-sect_d-text-2">Generous Pay</h4>
+              </div>
+              <ol class="home-page-sect_d-list-container--2">
+                <li><i class="far fa-check-circle"></i> Great Pay</li>
+                <li><i class="far fa-check-circle"></i> Company Perks</li>
+                <li><i class="far fa-check-circle"></i> Private Insurance</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly home-page-sect_d-job-section--2">
+          <div class="col-md-auto">
+            <div
+              class="home-page-sect_d-text-img-container home-page-sect_d-spacer-3"
+            >
+              <div class="home-page-sect_d-img-container--3">
+                <img src="images/img-9.jpg" alt="Picture of a happy man" />
+              </div>
+              <div class="home-page-sect_d-text-container--3">
+                <h4 class="home-page-sect_d-text-3">Job Satisfaction</h4>
+              </div>
+              <ol class="home-page-sect_d-list-container--3">
+                <li><i class="far fa-check-circle"></i> Great Careers</li>
+                <li><i class="far fa-check-circle"></i> Employee Happiness</li>
+                <li><i class="far fa-check-circle"></i> Work-Life Balance</li>
+              </ol>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="home-page-sect_d-text-img-container">
+              <div class="home-page-sect_d-img-container--4">
+                <img
+                  src="images/img-10.jpg"
+                  alt="Work colleagues in a meeting room"
+                />
+              </div>
+              <div class="home-page-sect_d-text-container--4">
+                <h4 class="home-page-sect_d-text-4">Great Networks</h4>
+              </div>
+              <ol class="home-page-sect_d-list-container--4">
+                <li><i class="far fa-check-circle"></i> Build Connections</li>
+                <li>
+                  <i class="far fa-check-circle"></i> Networking Opportunities
+                </li>
+                <li><i class="far fa-check-circle"></i> Great References</li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
-      <span class="fw-light fst-italic">Amy H</span> -->
-
-      <!-- <div class="home-page-sect_g-text-img-container">
-        <span class="home-page-sect_g-img-container">
-          <i class="fas fa-quote-right"></i>
-        </span>
-        <div class="home-page-sect_g-text-container--2">
-          <h4 class="home-page-sect_g-text-2">After coming to the UK, it wasn't easy finding a job. Luckily, JobGeeks showed me a clear
-            path and I've now got a job
-            in the City of London!
-          </h4>
+    </section>
+    <section class="home-page-sect_e-middle-container--4">
+      <div class="container-fluid">
+        <!-- Shape Divider -->
+        <div class="custom-shape-divider-bottom-1612716048">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill--5"
+            ></path>
+          </svg>
+        </div>
+        <div class="home-page-sect_e-achievements-section">
+          <div class="row justify-content-evenly">
+            <div class="col-md-auto">
+              <div class="card home-page-sect_e-card--1">
+                <div class="card-body">
+                  <div class="home-page-sect_e-text-container--1">
+                    <h4 class="home-page-sect_e-text-1">350+ Companies</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto">
+              <div class="card home-page-sect_e-card--2">
+                <div class="card-body">
+                  <div class="home-page-sect_e-text-container--3">
+                    <h4 class="home-page-sect_e-text-2">15yr Record</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto">
+              <div class="card home-page-sect_e-card--3">
+                <div class="card-body">
+                  <div class="home-page-sect_e-text-container--4">
+                    <h4 class="home-page-sect_e-text-3">Global Network</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto">
+              <div class="card home-page-sect_e-card--4">
+                <div class="card-body">
+                  <div class="home-page-sect_e-text-container--5">
+                    <h4 class="home-page-sect_e-text-4">3.2m Clients</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-page-sect_e-job-section">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-auto">
+                <div
+                  class="home-page-sect_e-text-img-container home-page-sect_e-spacer"
+                >
+                  <span class="home-page-sect_e-img-container--1">
+                    <i class="fas fa-binoculars"></i>
+                  </span>
+                  <div class="home-page-sect_e-text-container--6">
+                    <h4 class="home-page-sect_e-text-5">
+                      Where employers seek talent...
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-auto">
+                <div class="home-page-sect_e-text-img-container">
+                  <span class="home-page-sect_e-img-container--2">
+                    <i class="fas fa-building"></i>
+                  </span>
+                  <div class="home-page-sect_e-text-container--7">
+                    <h4 class="home-page-sect_e-text-6">
+                      Where talented people get noticed
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <span class="fw-light fst-italic">Michael T</span> -->
-
-      <!-- <div class="home-page-sect_g-text-img-container">
-        <span class="home-page-sect_g-img-container">
-          <i class="fas fa-quote-right"></i>
-        </span>
-        <div class="home-page-sect_g-text-container--2">
-          <h4 class="home-page-sect_g-text-2">One of the best thingd about JobGeeks is that they get you into jobs not based on your CV,
-            but on the core skills
-            you have
-          </h4>
+    </section>
+    <section class="home-page-sect_f-middle-container--5">
+      <div class="container-fluid">
+        <!-- Shape Divider -->
+        <div class="custom-shape-divider-bottom-1612716048">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill--6"
+            ></path>
+          </svg>
+        </div>
+        <div class="home-page-sect_f-text-container--1">
+          <h3 class="home-page-sect_f-text-1">Benefits</h3>
+        </div>
+        <div class="home-page-sect_f-benefits-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card home-page-sect_f-card-1">
+                  <div class="card-body">
+                    <div class="home-page-sect_f-number-text-container">
+                      <div class="home-page-sect_f-number-container">85%</div>
+                      <div class="home-page-sect_f-text-container">
+                        <h4 class="home-page-sect_f-text-1">More Employable</h4>
+                        <p class="home-page-sect_f-text-2">
+                          People who apply to companies through JobGeeks have an
+                          85% better chance of actually getting hired
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card home-page-sect_f-card-2">
+                  <div class="card-body">
+                    <div class="home-page-sect_f-number-text-container">
+                      <div class="home-page-sect_f-number-container">20%</div>
+                      <div class="home-page-sect_f-text-container">
+                        <h4 class="home-page-sect_f-text-1">
+                          Smoother Onboarding
+                        </h4>
+                        <p class="home-page-sect_f-text-2">
+                          Finding the perfect job can be a difficult process.
+                          But with JobGeeks, your application process will be
+                          about 20% less than what it would have been otherwise.
+                          In short, we make the job application process easier
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card home-page-sect_f-card-3">
+                  <div class="card-body">
+                    <div class="home-page-sect_f-number-text-container">
+                      <div class="home-page-sect_f-number-container">15%</div>
+                      <div class="home-page-sect_f-text-container">
+                        <h4 class="home-page-sect_f-text-1">Better Pay</h4>
+                        <p class="home-page-sect_f-text-2">
+                          Did you know that your salary is usually higher when
+                          you apply through JobGeeks. Yes... about 15% up from
+                          the 'norm', so send over your profile for a review
+                          now!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <span class="fw-light fst-italic">Chris D</span> -->
-    </div>
-  </section>
+    </section>
+    <section class="home-page-sect_g-middle-container--6">
+      <div class="container-fluid">
+        <!-- Shape Divider -->
+        <div class="custom-shape-divider-bottom-1612716048">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill--7"
+            ></path>
+          </svg>
+        </div>
+        <div class="home-page-sect_g-text-container--1">
+          <h3 class="home-page-sect_g-text-1">Listen to our past clients!</h3>
+        </div>
+        <div class="home-page-sect_g-review-container">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-3 col-md-4">
+                <div class="card home-page-sect_g-card-1">
+                  <div class="card-body">
+                    <div class="home-page-sect_g-text-img-container">
+                      <span class="home-page-sect_g-img-container">
+                        <i class="fas fa-quote-right"></i>
+                      </span>
+                      <div class="home-page-sect_g-text-container--2">
+                        <h4 class="home-page-sect_g-text-2">
+                          After coming to the UK, it wasn't easy finding a job.
+                          Luckily, JobGeeks showed me a clear path and I've now
+                          got a job in the City of London!
+                        </h4>
+                      </div>
+                      <div class="home-page-sect_g-text-container--3">
+                        <p class="fw-light fst-italic">-Michael T</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="card home-page-sect_g-card-2">
+                  <div class="card-body">
+                    <div class="home-page-sect_g-text-img-container">
+                      <span class="home-page-sect_g-img-container">
+                        <i class="fas fa-quote-right"></i>
+                      </span>
+                      <div class="home-page-sect_g-text-container--2">
+                        <h4 class="home-page-sect_g-text-2">
+                          The support provided by JobGeeks is just unparalleled.
+                          If you're looking for a high-profile job, then you've
+                          <span class="fw-bold fst-italic">got</span> to try
+                          JobGeeks!
+                        </h4>
+                      </div>
+                      <div class="home-page-sect_g-text-container--3">
+                        <p class="fw-light fst-italic">Amy H</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4">
+                <div class="card home-page-sect_g-card-3">
+                  <div class="card-body">
+                    <div class="home-page-sect_g-text-img-container">
+                      <span class="home-page-sect_g-img-container">
+                        <i class="fas fa-quote-right"></i>
+                      </span>
+                      <div class="home-page-sect_g-text-container--2">
+                        <h4 class="home-page-sect_g-text-2">
+                          One of the best thingd about JobGeeks is that they get
+                          you into jobs not based on your CV, but on the core
+                          skills you have
+                        </h4>
+                      </div>
+                      <div class="home-page-sect_g-text-container--3">
+                        <p class="fw-light fst-italic">Chris D</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
 
-
-  <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-  <!-- Full jQuery Library -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="index.js" charset="utf-8"></script>
-</body>
-
+    <!-- Full jQuery Library -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
 </html>
