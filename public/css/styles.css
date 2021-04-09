@@ -1662,3 +1662,40 @@ body {
     transform: translateX(-5px);
   }
 }
+
+.home-page-sect_h-sequence-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+.home-page-sect_h-number-dash-container {
+  width: 15%;
+  background-color: #FFFF00;
+}
+
+.home-page-sect_h-number-container {
+  width: 80px;
+  margin: auto;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 100%;
+  border: 1.5px solid #050505;
+  font-size: 1.85rem;
+}
+
+.home-page-sect_h-number-container:hover {
+  color: #DDDDDD;
+  background-image: linear-gradient(120deg, #292121, #050505);
+}
+
+.home-page-sect_h-dash-container {
+  width: 0;
+  height: 45px;
+  margin: auto;
+  border-right-style: dashed;
+  border-right-width: 2px;
+  border-right-color: #050505;
+}
