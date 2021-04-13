@@ -1663,12 +1663,18 @@ body {
   }
 }
 
-.home-page-sect_h-sequence-container {
-  width: 60%;
+.home-page-sect_h-sequence-container {  /* Targeting small-screen devices & others */
+  width: 90%;  /* Small-screen */
   margin: auto;
   display: flex;
   justify-content: center;
   /* background-color: grey; */
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_h-sequence-container {
+    width: 60%;
+  }
 }
 
 .home-page-sect_h-number-dash-container {
@@ -1676,14 +1682,22 @@ body {
   /* background-color: #FFFF00; */
 }
 
-.home-page-sect_h-number-container {
-  width: 80px;
+.home-page-sect_h-number-container {  /* Targeting small-screen devices & others */
+  width: 70px;  /* Small-screen */
   margin: auto;
-  line-height: 80px;
+  line-height: 70px;  /* Small-screen */
   text-align: center;
   border-radius: 100%;
   border: 1.5px solid #050505;
-  font-size: 1.85rem;
+  font-size: 1.7rem;  /* Small-screen */
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_h-number-container {
+    width: 80px;
+    line-height: 80px;
+    font-size: 1.85rem;
+  }
 }
 
 .home-page-sect_h-number-container:hover {
@@ -1711,7 +1725,7 @@ body {
   /* background-color: #FF0000; */
 }
 
-.home-page-sect_h-text-2 {
+.home-page-sect_h-text-2 {  
   font-size: 1.3rem;
 }
 
@@ -1721,13 +1735,19 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_h-text-2 {
+    font-size: 1.2rem;
+  }
+}
+
 .home-page-sect_h-text-container--3 {
   width: 90%;
   padding-top: 85px;
   /* background-color: #FF0000; */
 }
 
-.home-page-sect_h-text-3 {
+.home-page-sect_h-text-3 {  
   font-size: 1.3rem;
 }
 
@@ -1737,18 +1757,30 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_h-text-3 {
+    font-size: 1.2rem;
+  }
+}
+
 .home-page-sect_h-text-container--4 {
   width: 90%;
   padding-top: 80px;
   /* background-color: #FF0000; */
 }
 
-.home-page-sect_h-text-4 {
+.home-page-sect_h-text-4 { 
   font-size: 1.3rem;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
   .home-page-sect_h-text-4 {
     transform: translateX(38px);
+  }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_h-text-4 {
+    font-size: 1.2rem;
   }
 }
