@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Continue building Home Page Section I!
+// For Next Time: Set font-size for icon text in Home Page Section I & carry on!
 
 app.get('/', (req, res) => {
   res.render('home');

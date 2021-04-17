@@ -1853,13 +1853,51 @@ body {
   /* background-color: #FF0000; */
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_i-text-container--1 {
+    padding-top: 60px;
+  }
+}
+
 .home-page-sect_i-text-1 {  /* Targeting small-screen devices & others */
   font-size: 1.7rem;  /* Small-screen */
   font-weight: 300;
+  color: #FFFFFF;
 }
 
 @media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
   .home-page-sect_i-text-1 {
     font-size: 2.1rem;
   }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_i-text-1 {
+    transform: translateX(-8px);
+  }
+}
+
+.home-page-sect_i-specialism-container {
+  width: 90%;
+  margin: auto;
+  background-color: grey;
+}
+
+/* .home-page-sect_i-card-1 {
+  border: none;
+  background-color: #1A508B;
+} */
+
+.home-page-sect_i-text-container--2 {
+  width: 90%;
+  margin: auto;  /* NOTE: These two lines of code make text & icon align beautifully along centre */
+  text-align: center;
+  /* background-color:#FF0000; */
+}
+
+.home-page-sect_i-img-container {
+  font-size: 2.6rem;
+  color: #FFFF00;
+  display: block;
+  float: left;
 }
