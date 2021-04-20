@@ -1895,6 +1895,12 @@ body {
   background-color: #1A508B;
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_i-card-1 {
+    transform: translateX(-5px);
+  }
+}
+
 .home-page-sect_i-text-container--2 {
   width: 90%;
   margin: auto;  /* NOTE: These two lines of code make text & icon align beautifully along centre */
@@ -1929,4 +1935,21 @@ body {
 .home-page-sect_i-card-2 {
   border: none;
   background-color: #1A508B;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_i-card-2 {
+    transform: translateX(-5px);
+  }
+}
+
+.home-page-sect_i-card-3 {
+  border: none;
+  background-color: #1A508B;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_i-card-3 {
+    transform: translateX(-5px);
+  }
 }
