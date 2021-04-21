@@ -1953,3 +1953,14 @@ body {
     transform: translateX(-5px);
   }
 }
+
+.home-page-sect_i-card-4 {
+  border: none;
+  background-color: #1A508B;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_i-card-4 {
+    transform: translateX(-5px);
+  }
+}
