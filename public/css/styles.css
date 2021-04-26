@@ -1975,3 +1975,41 @@ body {
     transform: translateX(-5px);
   }
 }
+
+
+/* SECTION J */
+
+.home-page-sect_j-middle-container--9 {
+  width: 100vw;
+  position: relative;
+  background-color: #FFF3E6;
+}
+
+/* SHAPE DIVIDER */
+
+.custom-shape-divider-bottom-1612716048 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612716048 svg {
+  position: relative;
+  display: block;
+  width: calc(146% + 1.3px);
+  height: 25px;
+}
+
+.custom-shape-divider-bottom-1612716048 .shape-fill--10 {
+  fill: #FFFFFF;
+}
+
+.home-page-sect_j-contact-container {
+  width: 90%;
+  margin: auto;
+  background-color: grey;
+}
