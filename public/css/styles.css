@@ -1842,7 +1842,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1612716048 .shape-fill--9 {
-  fill: #FFFFFF;
+  fill: #FFF3E6;
 }
 
 .home-page-sect_i-text-container--1 {
@@ -2008,8 +2008,35 @@ body {
   fill: #FFFFFF;
 }
 
-.home-page-sect_j-contact-container {
+.home-page-sect_j-contact-container {  /* Targeting small-screen devices & others */
   width: 90%;
   margin: auto;
-  background-color: grey;
+  padding: 40px 0 60px 0;  /* Small-screen */
+  /* background-color: grey; */
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_j-contact-container {
+    padding: 60px 0 80px 0;
+  }
+}
+
+.home-page-sect_j-card-1 {
+  border: none;
+  background-color: #FFF3E6;
+}
+
+.home-page-sect_j-text-container--1 {
+  text-align: center;
+}
+
+.home-page-sect_j-text-1 {  /* Targeting small-screen devices & others */
+  font-size: 1.7rem;  /* Small-screen */
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_j-text-1 {
+    font-size: 2.1rem;
+  }
 }
