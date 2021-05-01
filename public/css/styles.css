@@ -2026,6 +2026,12 @@ body {
   background-color: #FFF3E6;
 }
 
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_j-text-img-container {
+    text-align: center;
+  }
+}
+
 .home-page-sect_j-text-container--1 {
   text-align: center;
 }
@@ -2039,4 +2045,23 @@ body {
   .home-page-sect_j-text-1 {
     font-size: 2.1rem;
   }
+}
+
+.home-page-sect_j-img-container--1 {
+  font-size: 2.3rem;
+  color: #000000;
+  margin-right: 7px;
+  display: inline-block;
+}
+
+.home-page-sect_j-img-container--2 {
+  font-size: 2.3rem;
+  color: #0E49B5;
+  margin-right: 7px;
+  display: inline-block;
+}
+
+.home-page-sect_j-img-container--3 {
+  font-size: 2.3rem;
+  color: #FF0000;
 }
