@@ -2065,3 +2065,11 @@ body {
   font-size: 2.3rem;
   color: #FF0000;
 }
+
+.home-page-sect_j-card-2 {
+  background-color: #EEEEEE;
+}
+
+.form-group .home-page-sect_j-form-input {
+  border-radius: 0;
+}
