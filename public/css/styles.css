@@ -2067,9 +2067,39 @@ body {
 }
 
 .home-page-sect_j-card-2 {
-  background-color: #EEEEEE;
+  background-color: #111111;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_j-card-2{
+    transform: translateX(-5px);
+  }
+}
+
+.text-colour {
+  color: #FFFF00;
 }
 
 .form-group .home-page-sect_j-form-input {
   border-radius: 0;
+}
+
+.form-group .home-page-sect_j-text-box {
+  border-radius: 0;
+}
+
+.home-page-sect_j-button-container {
+  width: 100%;  
+  /* background-color: #00FF00; */
+}
+
+.home-page-sect_j-button-colour {
+  width: 100%;  /* Creates 'block' button */
+  color: #FFFFFF;
+  border-radius: 0;
+  background-color: #0E49B5;
+}
+
+.home-page-sect_j-button-colour:hover {
+  color: #BBBBBB;
 }

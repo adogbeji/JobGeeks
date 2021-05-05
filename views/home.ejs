@@ -882,10 +882,14 @@
             <div class="col-md-6 col-lg-4">
               <div class="card">
                 <div class="card-body home-page-sect_j-card-2">
-                  <form method="POST">
+                  <form action="https://formsubmit.co/email_address_alias" method="POST">
                     <div class="mb-3 form-group">
                       <label for="clientName" class="form-label"><span class="text-colour fw-bold">Name:</span></label>
                       <input type="text" name="name" class="form-control home-page-sect_j-form-input" id="clientName" autocomplete="off"/>
+                      
+                      <!-- Hidden Inputs -->
+                      <input type="hidden" name="_next" value="http://localhost:3000/contact/success">
+                      <input type="hidden" name="_subject" value="New Client Message">
                     </div>
                     <div class="mb-3 form-group">
                       <label for="clientEmail" class="form-label"><span class="text-colour fw-bold">Email:</span></label>
@@ -893,9 +897,13 @@
                     </div>
                     <div class="mb-3 form-group">
                       <label for="clientMessage" class="form-label"><span class="text-colour fw-bold">Message:</span></label>
-                      <textarea name="message" name="message" class="form-control" id="clientMessage" rows="6"></textarea>                     
+                      <textarea name="message" name="message" class="form-control home-page-sect_j-text-box" id="clientMessage" rows="6"></textarea>                     
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="home-page-sect_j-button-container">
+                       <button type="submit" class="btn home-page-sect_j-button-colour">
+                         Submit
+                        </button>
+                    </div>
                   </form>
                 </div>
               </div>
