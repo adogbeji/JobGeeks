@@ -2005,7 +2005,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1612716048 .shape-fill--10 {
-  fill: #FFFFFF;
+  fill: #1A508B;
 }
 
 .home-page-sect_j-contact-container {  /* Targeting small-screen devices & others */
@@ -2102,4 +2102,36 @@ body {
 
 .home-page-sect_j-button-colour:hover {
   color: #BBBBBB;
+}
+
+
+/* SECTION K */
+
+.home-page-sect_k-middle-container--10 {
+  width: 100vw;
+  position: relative;
+  background-color: #1A508B;
+}
+
+/* SHAPE DIVIDER */
+
+.custom-shape-divider-bottom-1612716048 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612716048 svg {
+  position: relative;
+  display: block;
+  width: calc(146% + 1.3px);
+  height: 25px;
+}
+
+.custom-shape-divider-bottom-1612716048 .shape-fill--11 {
+  fill: #FFFFFF;
 }
