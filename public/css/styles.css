@@ -2278,3 +2278,10 @@ body {
     transform: translateX(-5px);
   }
 }
+
+.home-page-sect_l-phone-number-container {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 30px;
+  background-color: grey;
+}
