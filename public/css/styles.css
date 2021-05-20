@@ -2283,5 +2283,37 @@ body {
   width: 60%;
   margin: auto;
   padding-bottom: 30px;
-  background-color: grey;
+  /* background-color: grey; */
+}
+
+.home-page-sect_l-card-colour {
+  border: none;
+  background-color: #FFF3E6;
+}
+
+.home-page-sect_l-img-container {
+  font-size: 1.8rem;
+  color: #0E49B5;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+  .home-page-sect_l-img-container {
+    transform: translateX(40px);  /* Helps to center icon */
+  }
+}
+
+.home-page-sect_l-text-container--2 {
+  display: inline-block;
+  /* background-color: #FF0000; */
+}
+
+.home-page-sect_l-text-2 {  /* Targeting small-screen devices */
+  font-size: 1.45rem;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-sect_l-text-2 {
+    font-size: 1.75rem;
+  }
 }
