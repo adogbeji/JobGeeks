@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Continue building Home Page Footer!
+// For Next Time: Add footer section dividers on small-screen only!
 
 app.get('/', (req, res) => {
   res.render('home');

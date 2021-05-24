@@ -2133,7 +2133,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1612716048 .shape-fill--11 {
-  fill: #FFFFFF;
+  fill: #FFF3E6;
 }
 
 .home-page-sect_k-text-container--1 {  /* Targeting small-screen devices & others */
@@ -2245,7 +2245,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1612716048 .shape-fill--12 {
-  fill: #FFFFFF;
+  fill: #C1A1D3;
 }
 
 .home-page-sect_l-text-container--1 {  /* Targeting small-screen devices & others */
@@ -2316,4 +2316,41 @@ body {
   .home-page-sect_l-text-2 {
     font-size: 1.75rem;
   }
+}
+
+/* FOOTER */
+
+.home-page-bottom-container {
+  width: 100vw;
+  background-color: #C1A1D3;
+}
+
+.home-page-bottom-container-card-1 {
+  border: none;
+  background-color: #C1A1D3;
+}
+
+.home-page-footer-column {
+  text-align: center;
+}
+
+.home-page-footer-column .home-page-footer-link {
+  font-size: 1rem;
+  color: #050505;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.home-page-footer-column .home-page-footer-link:hover {
+  color: #050505;
+}
+
+.home-page-bottom-container-card-2 {
+  border: none;
+  background-color: #C1A1D3;
+}
+
+.home-page-bottom-container-card-3 {
+  border: none;
+  background-color: #C1A1D3;
 }
