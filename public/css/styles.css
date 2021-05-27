@@ -2345,6 +2345,20 @@ body {
   color: #050505;
 }
 
+.home-page-footer-divider {  /* Targeting small-screen devices */
+  height: 0;
+  width: 40%;
+  margin: 12px auto 10px auto;
+  border-bottom-style: dashed;
+  border-bottom-width: 2.4px;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+  .home-page-footer-divider {
+    display: none;
+  }
+}
+
 .home-page-bottom-container-card-2 {
   border: none;
   background-color: #C1A1D3;
