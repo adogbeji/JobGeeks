@@ -58,7 +58,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 
 const User = require('./models/user-model');
 
-// For Next Time: Continue building Column 4 of Home Page Footer Section
+// For Next Time: Begin applying styles for Home Page Footer download buttons
 
 app.get('/', (req, res) => {
   res.render('home');
