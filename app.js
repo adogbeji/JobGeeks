@@ -49,11 +49,15 @@ require('./config/passport')(passport);
 const DB = require('./config/keys').MongoURI;
 
 mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
-.then(() => {
-  console.log('MongoDB Connected!');
-})
-.catch(err => {
-  console.log(err);
+// .then(() => {
+//   console.log('MongoDB Connected!');
+// })
+// .catch(err => {
+//   console.log(err);
+// });
+
+.then(con => {
+  console.log(con.connections);
 });
 
 const User = require('./models/user-model');
